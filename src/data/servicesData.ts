@@ -1,9 +1,9 @@
-import seoImg from '../assets/seo-3d.jpg';
-import webDevImg from '../assets/web-dev-3d.jpg';
-import appDevImg from '../assets/app-dev-3d.jpg';
-import marketingImg from '../assets/marketing-3d.jpg';
-import ecommerceImg from '../assets/ecommerce-3d.jpg';
-import brandingImg from '../assets/branding-3d.jpg';
+import seoImg from '../assets/seo-3d.webp';
+import webDevImg from '../assets/web-dev-3d.webp';
+import appDevImg from '../assets/app-dev-3d.webp';
+import marketingImg from '../assets/marketing-3d.webp';
+import ecommerceImg from '../assets/ecommerce-3d.webp';
+import brandingImg from '../assets/branding-3d.webp';
 
 export interface ServiceItem {
   id: string;

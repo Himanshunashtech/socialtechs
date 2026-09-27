@@ -19,10 +19,10 @@ import {
   Award,
   ExternalLink,
 } from "lucide-react";
-import heroImage from "../assets/socialtechs-hero.jpg";
-import seoExpertCustomImg from "../assets/seo-expert-custom.jpg";
-import growthMarketerImg from "../assets/growth-marketer-3d.jpg";
-import techDevImg from "../assets/tech-dev-3d.jpg";
+import heroImage from "../assets/socialtechs-hero.webp";
+import seoExpertCustomImg from "../assets/seo-expert-custom.webp";
+import growthMarketerImg from "../assets/growth-marketer-3d.webp";
+import techDevImg from "../assets/tech-dev-3d.webp";
 import { servicesData } from "../data/servicesData";
 
 const outcomes = [

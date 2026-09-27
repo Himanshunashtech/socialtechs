@@ -12,9 +12,9 @@ import {
   ShieldCheck,
   TrendingUp,
 } from 'lucide-react';
-import founderImg from '../assets/kunal-bhati-founder.jpg';
-import teamImg from '../assets/socialtechs-team-100.jpg';
-import officeImg from '../assets/socialtechs-office-hq.jpg';
+import founderImg from '../assets/kunal-bhati-founder.webp';
+import teamImg from '../assets/socialtechs-team-100.webp';
+import officeImg from '../assets/socialtechs-office-hq.webp';
 
 export const AboutPage: React.FC = () => {
   return (
