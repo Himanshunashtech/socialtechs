@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
 
         <div className="flex items-center gap-3">
           <a
-            href="mailto:kunalbhati596@gmail.com"
+            href="mailto:socialtechs.in@gmail.com"
             aria-label="Email Socialtechs"
             className="social-link"
           >

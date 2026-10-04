@@ -488,11 +488,11 @@ export const ProcessPage: React.FC = () => {
                 <strong>+91 74284 60083</strong>
               </div>
             </a>
-            <a href="mailto:kunalbhati596@gmail.com" className="contact-card">
+            <a href="mailto:socialtechs.in@gmail.com" className="contact-card">
               <Mail className="size-5 text-blue-300 shrink-0" />
               <div>
                 <span>Email Inquiries</span>
-                <strong>kunalbhati596@gmail.com</strong>
+                <strong>socialtechs.in@gmail.com</strong>
               </div>
             </a>
           </div>

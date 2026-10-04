@@ -111,10 +111,10 @@ export const AboutPage: React.FC = () => {
                   <Phone className="size-3.5" /> Call Kunal Directly (+91 74284 60083)
                 </a>
                 <a
-                  href="mailto:kunalbhati596@gmail.com"
+                  href="mailto:socialtechs.in@gmail.com"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-bold bg-slate-100 hover:bg-slate-200 text-slate-800 transition-all"
                 >
-                  <Mail className="size-3.5 text-blue-600" /> kunalbhati596@gmail.com
+                  <Mail className="size-3.5 text-blue-600" /> socialtechs.in@gmail.com
                 </a>
               </div>
             </div>
@@ -249,13 +249,13 @@ export const AboutPage: React.FC = () => {
                 <strong>Delta-1, Greater Noida, Near Shivam Plaza</strong>
               </div>
             </div>
-            <div className="contact-card">
+            <a href="mailto:socialtechs.in@gmail.com" className="contact-card">
               <Mail className="size-5 text-blue-300 shrink-0" />
               <div>
                 <span>Email Support</span>
-                <strong>kunalbhati596@gmail.com</strong>
+                <strong>socialtechs.in@gmail.com</strong>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>

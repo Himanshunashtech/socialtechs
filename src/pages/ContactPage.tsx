@@ -61,7 +61,7 @@ export const ContactPage: React.FC = () => {
                 </a>
 
                 <a
-                  href="mailto:kunalbhati596@gmail.com"
+                  href="mailto:socialtechs.in@gmail.com"
                   className="flex items-start gap-4 p-4 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-blue-400 hover:bg-blue-50/50 transition-colors group"
                 >
                   <div className="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center shrink-0 group-hover:bg-blue-600 group-hover:text-white transition-all">
@@ -69,7 +69,7 @@ export const ContactPage: React.FC = () => {
                   </div>
                   <div>
                     <span className="text-xs uppercase tracking-wider text-slate-500 font-semibold">Email Inquiries</span>
-                    <strong className="block text-base font-bold text-slate-900 mt-0.5">kunalbhati596@gmail.com</strong>
+                    <strong className="block text-base font-bold text-slate-900 mt-0.5">socialtechs.in@gmail.com</strong>
                     <span className="text-xs text-slate-500">Response within 24 hours</span>
                   </div>
                 </a>
