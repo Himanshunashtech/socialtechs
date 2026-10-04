@@ -6,7 +6,7 @@ export const Footer: React.FC = () => {
   return (
     <footer className="border-t border-slate-200 bg-white py-8">
       <div className="site-shell flex flex-col items-center justify-between gap-5 text-center sm:flex-row sm:text-left">
-        <BrandLogo className="h-11 w-[200px]" />
+        <BrandLogo />
         
         <p className="text-xs text-slate-500">
           &copy; 2026 Socialtechs Digital Marketing. All rights reserved.

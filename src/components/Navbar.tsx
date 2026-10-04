@@ -27,7 +27,7 @@ export const Navbar: React.FC = () => {
       <div className="site-shell flex h-16 sm:h-20 items-center justify-between gap-3">
         {/* Brand Logo */}
         <Link to="/" aria-label="Socialtechs home" className="shrink-0">
-          <BrandLogo className="h-9 sm:h-12 w-[170px] sm:w-[220px]" />
+          <BrandLogo />
         </Link>
 
         {/* Desktop Navigation Links */}
