@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { servicesData } from '../data/servicesData';
 import { ArrowLeft, ArrowRight, CheckCircle2, Phone, Mail, ChevronDown, Sparkles } from 'lucide-react';
+import { SEO } from '../components/SEO';
 
 export const ServiceDetailPage: React.FC = () => {
   const { serviceId } = useParams<{ serviceId: string }>();
@@ -17,6 +18,11 @@ export const ServiceDetailPage: React.FC = () => {
 
   return (
     <div className="pt-28 pb-24 bg-slate-50 min-h-screen text-slate-900">
+      <SEO
+        title={service.title}
+        description={service.shortDesc}
+        canonical={`https://socialtechs.in/services/${service.slug}`}
+      />
       <div className="site-shell">
         {/* Back Link */}
         <div className="mb-8">

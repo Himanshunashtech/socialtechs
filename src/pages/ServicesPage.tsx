@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { servicesData } from '../data/servicesData';
 import { ArrowRight, Check, Sparkles } from 'lucide-react';
+import { SEO } from '../components/SEO';
 
 export const ServicesPage: React.FC = () => {
   const [selectedFilter, setSelectedFilter] = useState<'all' | 'marketing' | 'tech'>('all');
@@ -14,6 +15,11 @@ export const ServicesPage: React.FC = () => {
 
   return (
     <div className="pt-28 pb-24 bg-slate-50 min-h-screen text-slate-900">
+      <SEO
+        title="Our Services - Digital Marketing, SEO & Tech Solutions"
+        description="Explore Socialtechs full suite of services: Website Development, SEO, Google & Meta Ads, Social Media Marketing, Branding, E-Commerce, and Reputation Management."
+        canonical="https://socialtechs.in/services"
+      />
       <div className="site-shell">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-12">

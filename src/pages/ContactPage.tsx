@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Send, CheckCircle2 } from 'lucide-react';
+import { SEO } from '../components/SEO';
 
 export const ContactPage: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -19,6 +20,11 @@ export const ContactPage: React.FC = () => {
 
   return (
     <div className="pt-28 pb-24 bg-slate-50 min-h-screen text-slate-900">
+      <SEO
+        title="Contact Us - Free Strategy Call & Proposal"
+        description="Get in touch with Socialtechs in Greater Noida, Delhi NCR. Call +91 74284 60083 or send an inquiry for custom digital marketing and website solutions."
+        canonical="https://socialtechs.in/contact"
+      />
       <div className="site-shell">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="eyebrow text-blue-600 mb-4">

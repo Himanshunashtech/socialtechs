@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronDown, Search, Phone, ArrowRight, MessageCircle } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { SEO } from '../components/SEO';
 
 const allFaqs = [
   {
@@ -55,6 +56,11 @@ export const FaqPage: React.FC = () => {
 
   return (
     <div className="pt-28 pb-24 bg-slate-50 min-h-screen text-slate-900">
+      <SEO
+        title="Frequently Asked Questions (FAQ)"
+        description="Find clear answers to common questions regarding Socialtechs pricing, timelines, digital marketing strategies, and web development process."
+        canonical="https://socialtechs.in/faq"
+      />
       <div className="site-shell">
         <div className="text-center max-w-3xl mx-auto mb-12">
           <p className="eyebrow text-blue-600 mb-4">

@@ -21,6 +21,7 @@ import {
   Flame,
   Check
 } from 'lucide-react';
+import { SEO } from '../components/SEO';
 
 interface ProcessStep {
   id: string;
@@ -221,6 +222,11 @@ export const ProcessPage: React.FC = () => {
 
   return (
     <div className="pt-28 pb-24 bg-slate-50 min-h-screen text-slate-900">
+      <SEO
+        title="Our Proven 7-Stage Process"
+        description="Discover our battle-tested 7-stage architectural growth process from discovery and UX architecture to live scaling and conversion optimization."
+        canonical="https://socialtechs.in/process"
+      />
       <div className="site-shell">
         {/* Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">

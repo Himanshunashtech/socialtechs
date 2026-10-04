@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Star, ArrowRight, ExternalLink } from 'lucide-react';
+import { SEO } from '../components/SEO';
 
 export const ReviewsPage: React.FC = () => {
   const fullReviews = [
@@ -48,6 +49,11 @@ export const ReviewsPage: React.FC = () => {
 
   return (
     <div className="pt-28 pb-24 bg-slate-50 min-h-screen text-slate-900">
+      <SEO
+        title="Client Reviews & Success Stories"
+        description="Read genuine reviews and case studies from clients who scaled their business with Socialtechs digital marketing, SEO, and web development."
+        canonical="https://socialtechs.in/reviews"
+      />
       <div className="site-shell">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <p className="eyebrow text-blue-600 mb-4">

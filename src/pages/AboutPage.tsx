@@ -15,10 +15,16 @@ import {
 import founderImg from '../assets/kunal-bhati-founder.webp';
 import teamImg from '../assets/socialtechs-team-100.webp';
 import officeImg from '../assets/socialtechs-office-hq.webp';
+import { SEO } from '../components/SEO';
 
 export const AboutPage: React.FC = () => {
   return (
     <div className="pt-28 pb-24 bg-slate-50 min-h-screen text-slate-900">
+      <SEO
+        title="About Us - Digital Growth Pioneers"
+        description="Learn about Socialtechs, founded by Kunal Bhati. We are a premier digital marketing and web development agency in Greater Noida committed to ROI and transparency."
+        canonical="https://socialtechs.in/about"
+      />
       <div className="site-shell">
         {/* Hero Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">

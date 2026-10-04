@@ -1,10 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
+import { SEO } from '../components/SEO';
 
 export const NotFound: React.FC = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-[70vh] px-4 text-center bg-slate-50 pt-20">
+      <SEO
+        title="404 - Page Not Found"
+        description="The page you are looking for could not be found."
+      />
       <div className="text-8xl font-black bg-clip-text text-transparent bg-gradient-to-r from-blue-600 via-indigo-600 to-cyan-600">
         404
       </div>

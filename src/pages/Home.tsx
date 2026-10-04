@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { SEO } from "../components/SEO";
 import {
   ArrowRight,
   BarChart3,
@@ -145,6 +146,11 @@ export const Home = () => {
 
   return (
     <div className="overflow-hidden bg-slate-50 text-slate-900 pt-16 sm:pt-20">
+      <SEO
+        title="Socialtechs | Digital Marketing, SEO & Website Development Agency"
+        description="Socialtechs helps every business grow through high-ROI SEO, Google & Meta Ads, modern React web apps, social media marketing, and brand identity in Greater Noida & Delhi NCR."
+        canonical="https://socialtechs.in/"
+      />
       {/* Hero Section */}
       <section id="home" className="hero-section relative flex min-h-[500px] sm:min-h-[560px] lg:min-h-[580px] items-start">
         <img
